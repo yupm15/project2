@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2023-05-03T05:49:57.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Jl7-9nQd-7d1DzW00uga" version="21.2.4" type="google">
+  <diagram name="第一版ER-model" id="x445jZA0Nps775larpTg">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-4" target="NeNcIq3AihrxhfjPvW-z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-4" value="顧客資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="117" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-5" value="帳號ID&lt;br&gt;顧客姓名&lt;br&gt;顧客電話&lt;br&gt;顧客地址&lt;br&gt;顧客email&lt;br&gt;訂單ID&lt;br&gt;收藏資料&lt;br&gt;客服需求?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-4">
+          <mxGeometry x="11" y="20" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-6" target="NeNcIq3AihrxhfjPvW-z-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-6" target="NeNcIq3AihrxhfjPvW-z-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFonmB_ECxt2tLjH1rfE-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-6" target="IFonmB_ECxt2tLjH1rfE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="560" />
+              <mxPoint x="700" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-6" value="商家資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="330" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-7" value="帳號ID&lt;br&gt;商家詳細資料&lt;br&gt;菜品ID&lt;br&gt;訂單ID&lt;br&gt;客服需求欄" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-6">
+          <mxGeometry x="10" y="26" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Q:顧客、店家、管理員、(外送員?)&lt;br&gt;帳號是否要做同一個表&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="45" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="167.5" as="sourcePoint" />
+            <mxPoint x="275" y="395" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="205" y="168" />
+              <mxPoint x="205" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NeNcIq3AihrxhfjPvW-z-11" target="NeNcIq3AihrxhfjPvW-z-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-11" value="帳號表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="110" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-12" value="帳號ID&lt;br&gt;帳號&lt;br&gt;密碼" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-11">
+          <mxGeometry x="8" y="19.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-13" value="管理者資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="585" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-14" value="帳號ID&lt;br&gt;管理者電話&lt;br&gt;管理者email" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-13">
+          <mxGeometry x="10" y="40" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-17" value="訂單資料表" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="470" y="128.75" width="110" height="136.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WNi_aApmmI8R5p0tq-gk-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="NeNcIq3AihrxhfjPvW-z-17" source="NeNcIq3AihrxhfjPvW-z-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-18" value="訂單ID&lt;br&gt;訂單詳細&lt;br&gt;訂單日期&lt;br&gt;訂單進度&lt;br&gt;客製化需求欄&lt;br&gt;付款方式" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-17">
+          <mxGeometry x="8" y="21" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-21" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-23" value="菜單資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="404" width="110" height="125.25" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-24" value="菜品ID&lt;br&gt;菜品名稱&lt;br&gt;菜品圖片&lt;br&gt;價錢&lt;br&gt;種類&lt;br&gt;菜品簡介" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-23">
+          <mxGeometry x="10" y="25.25" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-28" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="374" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-32" value="管理者功能" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="595" width="105" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-31" value="客服需求欄&lt;br&gt;顧客評價欄&lt;br&gt;商家評價欄" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NeNcIq3AihrxhfjPvW-z-32">
+          <mxGeometry x="5" y="35" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-35" value="1&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="344" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NeNcIq3AihrxhfjPvW-z-36" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WNi_aApmmI8R5p0tq-gk-2" value="訂單詳細資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="123.5" width="110" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="WNi_aApmmI8R5p0tq-gk-3" value="訂單詳細&lt;br&gt;品項&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;數量&lt;br&gt;客製化需求欄&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;價錢&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;總金額&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;折扣碼?" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WNi_aApmmI8R5p0tq-gk-2">
+          <mxGeometry x="5" y="28.5" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WNi_aApmmI8R5p0tq-gk-6" value="1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="168" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IFonmB_ECxt2tLjH1rfE-4" value="商家詳細資料表" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="380" width="110" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IFonmB_ECxt2tLjH1rfE-5" value="商家詳細資料&lt;br&gt;商家logo圖片&lt;br&gt;商家描述&lt;br&gt;公司名稱&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;公司電話&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;公司地址&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;公司email" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IFonmB_ECxt2tLjH1rfE-4">
+          <mxGeometry x="10" y="27.25" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IFonmB_ECxt2tLjH1rfE-10" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="468" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IFonmB_ECxt2tLjH1rfE-11" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="540" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
